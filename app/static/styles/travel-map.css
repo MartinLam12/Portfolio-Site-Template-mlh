@@ -2,6 +2,7 @@
     width: 100%;
     padding: 48px 7% 90px;
     background: #ffffff;
+    box-sizing: border-box;
 }
 
 .favorite-places-title {
