@@ -14,6 +14,9 @@ def index():
     return render_template('index.html', title="MLH Fellow", url=os.getenv("URL"))
 
 
+@app.route('/work-experience')
+def work_experience():
+    return render_template('work_experience.html')
 @app.route('/map')
 def map():
     return render_template('map.html', url=os.getenv("URL"))
